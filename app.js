@@ -7,7 +7,7 @@ const router = express.Router()
 // We are going to use our dummy data to make any http call.
 const data = require('./data')
 // We need specify the HTTP method and then we need to decide what should happen when we access the route 
-// using the give method.
+// using the get method.
 app.get('/api/employees', (req, res) => {
     res.send('Hello World!')
 })
