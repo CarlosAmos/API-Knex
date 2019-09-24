@@ -9,8 +9,8 @@ const database = {
     host: 'localhost',
     port: 3306,
     user: 'root',
-    password: 'kahwaji80',
-    database: 'my_db',
+    password: 'P@ssword1',
+    database: 'MyDatabase',
     insecureAuth: true
 }
 
